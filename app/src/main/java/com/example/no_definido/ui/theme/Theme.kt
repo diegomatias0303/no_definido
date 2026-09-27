@@ -10,11 +10,23 @@ private val KidsColorScheme = lightColorScheme(
     primaryContainer = KidsPrimaryContainer,
     onPrimaryContainer = KidsOnPrimaryContainer,
     secondary = KidsSecondary,
+    onSecondary = KidsOnSecondary,
     secondaryContainer = KidsSecondaryContainer,
+    onSecondaryContainer = KidsOnSecondaryContainer,
     tertiary = KidsTertiary,
+    onTertiary = KidsOnTertiary,
     tertiaryContainer = KidsTertiaryContainer,
+    onTertiaryContainer = KidsOnTertiaryContainer,
+    error = KidsError,
+    onError = KidsOnError,
+    errorContainer = KidsErrorContainer,
+    onErrorContainer = KidsOnErrorContainer,
     background = KidsBackground,
-    surface = KidsSurface
+    onBackground = KidsOnBackground,
+    surface = KidsSurface,
+    onSurface = KidsOnSurface,
+    surfaceVariant = KidsSurfaceVariant,
+    onSurfaceVariant = KidsOnSurfaceVariant
 )
 
 @Composable
